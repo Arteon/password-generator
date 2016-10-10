@@ -5,7 +5,19 @@ password policy.
 
 ## Usage
 
-To use the password generator, just create a new instance and set the requirements.
+Require this project using composer. This will make it available for your project.
+
+```
+composer require hosteurope/password-generator
+```
+
+Don't forget to require the composer autoloader, if not already done: 
+
+```php
+require 'vendor/autoload.php';
+```
+
+Then, to use the password generator, just create a new instance and set the requirements.
 
 In this example, we require the password to be 16 characters in length, including
 at least four lowercase characters, one uppercase character, two numbers and one symbol.
