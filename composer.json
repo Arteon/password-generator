@@ -1,5 +1,5 @@
 {
-  "name": "heg/password_generator",
+  "name": "hosteurope/password-generator",
   "description": "Password generator for generating policy-compliant passwords.",
   "type": "library",
   "license": "MIT",
