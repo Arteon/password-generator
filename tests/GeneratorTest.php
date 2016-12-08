@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace PasswordGeneratorTests;
 
 use Exception;
 use InvalidArgumentException;
